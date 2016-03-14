@@ -1,0 +1,27 @@
+/* Fist div */
+
+#first-div {
+  background-color: #000;
+  min-height: 100vh;
+}
+
+#first-div-title {
+  color: #fff;
+  text-align: center;
+  font-family: 'Lora', serif;
+}
+
+#first-div-subtitle {
+  color: #fff;
+  text-align: center;
+  font-family: 'Lora', serif;
+}
+
+#first-div-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100px;
+  max-height: 100px;
+  margin-top: 20vh;
+}
