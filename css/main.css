@@ -1,3 +1,8 @@
+/* HTML */
+html {
+  font-size: 12px;
+}
+
 /* Fist div */
 
 #first-div {
@@ -43,4 +48,36 @@
 #second-div-image {
   max-width: 100%;
   box-sizing: border-box;
+}
+
+/* Third div */
+#third-div {
+  background-color: #000;
+  /* min-height: 100vh; */
+  padding-bottom: 2vw;
+  padding-right: 2vw;
+  padding-left: 2vw;
+}
+
+#third-div-content {
+  color: #fff;
+  font-family: 'Lora', serif;
+  margin-top: 5.5em;
+  margin-bottom: 2em;
+}
+
+#third-div-title {
+  font-size: 4em;
+}
+
+#third-div-text {
+  margin-top: 2.5em;
+  font-size: em;
+}
+
+#author-text {
+  color: #fff;
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 2vw;
 }
