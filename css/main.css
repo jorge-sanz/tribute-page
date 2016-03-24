@@ -1,9 +1,9 @@
-/* HTML */
+/* ----- HTML ----- */
 html {
   font-size: 12px;
 }
 
-/* Fist div */
+/* ----- Fist div ----- */
 
 #first-div {
   background-color: #000;
@@ -31,26 +31,49 @@ html {
   margin-top: 20vh;
 }
 
-/* Second div */
+/* ----- Second div ----- */
 #second-div {
   background-color: #fff;
   min-height: 80vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #second-div-text {
+  order: 1;
+  flex-grow: 1;
+  min-width: 30%;
   margin-top: 25vh;
-  font-size: 1.9em;
+  font-size: 2.3em;
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  font-weight: lighter;
+  font-weight: 400;
+  margin-bottom: 25vh;
+}
+
+#steve-jobs-quote {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #second-div-image {
-  max-width: 100%;
-  box-sizing: border-box;
+  order: 2;
+  flex-grow: 1;
+  min-width: 45%;
+  align-self: flex-end;
+  max-width: 500px;
 }
 
-/* Third div */
+#steve-jobs-image {
+  max-width: 100%;
+  box-sizing: border-box;
+  float: right;
+}
+
+/* ----- Third div ----- */
 #third-div {
   background-color: #000;
   /* min-height: 100vh; */
